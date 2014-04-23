@@ -13,6 +13,8 @@ int main()
 {
     Sphere *ball = [[Sphere alloc] init];
     
+    [ball setRadius: 25];
+    
     
     
     
