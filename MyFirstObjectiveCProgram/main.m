@@ -15,7 +15,7 @@ int main()
     
     [ball setRadius: 25];
     
-    
+    NSLog(@"the ball radius is %f", [ball radius]);
     
     
     return 0;
