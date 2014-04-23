@@ -11,11 +11,18 @@
 
 int main()
 {
+//    Scanning for name input
+//    char sphereName[] = {0};
+//    
+//    NSLog(@"\n please enter your name \n");
+//    scanf("%s",sphereName);
+//    NSLog(@"\n your name is: %s \n", sphereName);
+    
     Sphere *ball = [[Sphere alloc] init];
     
     [ball setRadius: 25];
     
-    NSLog(@"the ball radius is %f", [ball radius]);
+    NSLog(@"\n the ball radius is %f \n", [ball radius]);
     
     
     return 0;
