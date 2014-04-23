@@ -8,6 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Sphere : NSObject
+@interface Sphere : NSObject {
+    NSArray *_center;
+    float _radius;
+}
+
+-(void)setCenter:(NSArray *)center;
+-(NSArray *)center;
+
+-(void)setRadius:(float)radius;
+-(float)radius;
 
 @end
