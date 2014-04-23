@@ -7,9 +7,14 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "sphere.h"
 
 int main()
 {
+    Sphere *ball = [[Sphere alloc] init];
+    
+    
+    
     
     return 0;
 }
