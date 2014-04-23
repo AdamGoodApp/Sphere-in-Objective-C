@@ -10,4 +10,20 @@
 
 @implementation Sphere
 
+-(void)setCenter:(NSArray *)center {
+    _center = center;
+}
+
+-(NSArray *)center {
+    return _center;
+}
+
+-(void)setRadius:(float)radius {
+    _radius = radius;
+}
+
+-(float)radius {
+    return _radius;
+}
+
 @end
